@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ping Zhou Consulting</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.titleKey = "contact_title";</script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <section class="hero" style="padding:2.5rem 0">
+    <div class="container">
+      <h1 data-i18n="contact_title">Kontakt & Anfrage</h1>
+      <p data-i18n="contact_intro"></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div>
+        <h2 data-i18n="contact_company">Ping Zhou Consulting</h2>
+        <p data-i18n="contact_address"></p>
+        <p><span data-i18n="contact_phone"></span></p>
+        <p><a href="mailto:contact@zhou-consult.de" data-i18n="contact_email"></a></p>
+      </div>
+
+      <form action="https://formsubmit.co/contact@zhou-consult.de" method="POST">
+        <input type="hidden" name="_subject" value="Graphite Product Inquiry - zhou-consult.com/graphiteproduct">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+
+        <div class="field">
+          <label for="name" data-i18n="form_name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="company" data-i18n="form_company">Firma</label>
+          <input id="company" name="company">
+        </div>
+        <div class="field">
+          <label for="email" data-i18n="form_email">E-Mail</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="phone" data-i18n="form_phone">Telefon</label>
+          <input id="phone" name="phone">
+        </div>
+        <div class="field">
+          <label for="product" data-i18n="form_product">Produktinteresse</label>
+          <select id="product" name="product">
+            <option value="Soft felt">Soft felt</option>
+            <option value="Cured felt">Cured felt</option>
+            <option value="C/C composite">C/C composite</option>
+            <option value="Racks / carrier plates">Racks / carrier plates</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message" data-i18n="form_message">Nachricht</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="field">
+          <label><input type="checkbox" required> <span data-i18n="form_privacy"></span> <a href="../datenschutz.html" data-i18n="nav_privacy">Datenschutz</a></label>
+        </div>
+        <button class="btn btn-primary" type="submit" data-i18n="form_submit">Anfrage senden</button>
+      </form>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <script src="js/content.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/layout.js"></script>
+</body>
+</html>
