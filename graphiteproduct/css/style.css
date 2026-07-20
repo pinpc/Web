@@ -100,11 +100,38 @@ a:hover { text-decoration: underline; }
 .section h2 { margin-top: 0; font-size: 1.7rem; }
 .section-intro { color: var(--muted); max-width: 760px; }
 
-.grid-3 {
+.grid-2,
+.grid-3,
+.grid-4 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
+}
+.grid-4 {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+.surface-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #f5f5f2;
+}
+.surface-card p {
+  margin: .75rem 0 0;
+  font-size: .9rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.35;
+}
+.tech-materials .card-with-img img {
+  height: 180px;
+  object-fit: cover;
+}
+.grid-2 {
+  max-width: 900px;
 }
 .card {
   background: var(--surface);
@@ -121,6 +148,10 @@ table.spec-table {
   border-collapse: collapse;
   background: #fff;
   font-size: .92rem;
+  table-layout: fixed;
+}
+.product-card .spec-table .col-property {
+  width: 38%;
 }
 table.spec-table th, table.spec-table td {
   border: 1px solid var(--border);
@@ -128,6 +159,25 @@ table.spec-table th, table.spec-table td {
   text-align: left;
 }
 table.spec-table th { background: #f0efe8; }
+
+#cured-felt .product-card-grid,
+#cc-composite .product-card-grid {
+  align-items: center;
+}
+
+#cured-felt .spec-table th,
+#cured-felt .spec-table td,
+#cc-composite .spec-table th,
+#cc-composite .spec-table td {
+  vertical-align: middle;
+}
+
+#cured-felt .spec-table th:nth-child(2),
+#cured-felt .spec-table td:nth-child(2),
+#cc-composite .spec-table th:nth-child(2),
+#cc-composite .spec-table td:nth-child(2) {
+  text-align: left;
+}
 
 .app-grid {
   display: grid;

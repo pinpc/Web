@@ -19,7 +19,7 @@ window.SITE_CONTENT = {
     impressum_body: "<p><strong>Ping Zhou Consulting</strong><br>Geschäftsführer: Ping Zhou<br>St.-Charles-Ring 2/1<br>71638 Ludwigsburg<br>Deutschland</p><p>Telefon: +49 173 4680010<br>E-Mail: contact@zhou-consult.de<br>USt-IdNr.: DE234711240</p>",
     privacy_body: "<p>Bei Nutzung des Kontaktformulars werden Ihre Angaben zur Bearbeitung der Anfrage an contact@zhou-consult.de übermittelt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO. Die Daten werden gelöscht, sobald die Anfrage abschließend bearbeitet ist.</p><p>Ausführliche Datenschutzhinweise finden Sie auf der Hauptwebsite.</p>",
     hero_title: "Kohlenstofffaserverbund-Materialien für Thermofelder",
-    hero_sub: "Soft felt, Cured felt und C/C-Verbundwerkstoffe für Hochtemperaturofen – von der Isolation bis zur chargierfertigen Komponente. Technische Beratung und Lieferung über Ping Zhou Consulting.",
+    hero_sub: "Weichfilz, Hartfilz und C/C-Verbundwerkstoffe für Hochtemperaturofen – von der Isolation bis zur chargierfertigen Komponente. Technische Beratung und Lieferung über Ping Zhou Consulting.",
     hero_cta_products: "Produkte ansehen",
     hero_cta_contact: "Anfrage senden",
     home_intro_title: "Ihr Partner für Hochtemperatur-Thermofelder",
@@ -29,18 +29,35 @@ window.SITE_CONTENT = {
     home_apps_intro: "Unsere Materialien werden in Hochtemperaturprozessen eingesetzt – von Wärmebehandlung über Silizium-Ziehen bis SiC-Kristallzüchtung.",
     home_tech_title: "Technologie & Anpassung",
     home_roi_title: "Messbarer Nutzen",
-    home_roi_text: "Client-validierte Isolationsleistung: bessere Wärmedämmung, geringerer Wärmeverlust, ~20 % Energieeinsparung, ~50 % Materialkosteneinsparung, ~7 % Gesamtkostenreduktion (Referenzfall). Tatsächliche Ergebnisse hängen von Anlage und Prozess ab.",
+    home_roi_text: "Kundenvalidierte Isolationsleistung: bessere Wärmedämmung, geringerer Wärmeverlust, ~20 % Energieeinsparung, ~50 % Materialkosteneinsparung, ~7 % Gesamtkostenreduktion (Referenzfall). Tatsächliche Ergebnisse hängen von Anlage und Prozess ab.",
     footer_text: "Ping Zhou Consulting · St.-Charles-Ring 2/1 · 71638 Ludwigsburg · Deutschland",
     products_title: "Produkte & technische Daten",
     products_intro: "Professionell kategorisierte Thermofeld-Materialien mit Kennwerten aus Produktpräsentation und Datenblattbasis.",
     applications_title: "Anwendungen",
     applications_intro: "Orientierung nach Prozesstemperatur und Industrie – vergleichbar mit Lösungsseiten führender Hochtemperatur-Anbieter.",
     technology_title: "Materialtechnologie",
-    technology_intro: "Kontinuierliches CVD und Oxidationsätzen ermöglichen die gezielte Anpassung von Morphologie, Dichte und Porosität.",
+    technology_intro: "Maßgeschneiderte Thermofeld-Materialien durch kontinuierliches CVD und Oxidationsätzen.",
+    tech_p3_1: "Kontinuierliches CVD + Oxidationsätzen: gezielte Faseroberflächenmodifikation bis zur Endverdichtung",
+    tech_p3_2: "Einstellbare Morphologie, Dichte und Porosität",
+    tech_p3_3: "Bei 1000 °C: Wärmeleitfähigkeit 0,15–35 W/m·K",
+    tech_p3_4: "Druckfestigkeit: 0,1–300 MPa",
+    tech_p3_5: "Bei 600 °C in O₂: Ablationsrate 5–30 %",
+    tech_p3_6: "Prozessanpassung für spezifische Kundenumgebungen",
+    tech_surfaces_title: "Hartfilz – Oberflächenvarianten",
+    surface_cloth: "Oberfläche Kohlenstoffgewebe",
+    surface_paper: "Oberfläche Graphitpapier",
+    surface_bare: "Oberfläche unbeschichtet",
+    surface_cfc: "Oberfläche CFC",
+    tech_cc_title: "C/C-Verbundwerkstoffe",
+    tech_cc_intro: "Flexible C/C-Produktion mit präziser Dichte- und Oberflächenbehandlung.",
+    tech_cc_1: "Einzigartige Gas-Flüssig-Karburierung zur bequemen Dichtekontrolle",
+    tech_cc_2: "Individuelle Textil- und Nadelvlies-Prozesse für unterschiedliche Betriebsbedingungen",
+    tech_cc_3: "Optional Borierung oder Silizierung auf Anfrage",
+    tech_cc_4: "Aschegehalt: 4,98 ppm nach Reinigung",
     contact_title: "Kontakt & Anfrage",
     contact_intro: "Senden Sie uns Ihre Anfrage zu Material, Abmessung, Ofentyp oder Anwendung. Wir melden uns über contact@zhou-consult.de.",
     contact_company: "Ping Zhou Consulting",
-    contact_address: "St.-Charles-Ring 2/1, 71638 Ludwigsburg, Germany",
+    contact_address: "St.-Charles-Ring 2/1, 71638 Ludwigsburg, Deutschland",
     contact_phone: "+49 173 4680010",
     contact_email: "contact@zhou-consult.de",
     form_name: "Name",
@@ -52,10 +69,36 @@ window.SITE_CONTENT = {
     form_submit: "Anfrage senden",
     form_privacy: "Ich habe die Datenschutzhinweise gelesen und stimme der Verarbeitung meiner Anfrage zu.",
     product_select_default: "Bitte wählen",
-    cat_soft: "Soft felt (Graphit-Weichfilz)",
-    cat_cured: "Cured felt (Hartfilz / Festkohlefaser)",
+    cat_soft: "Weichfilz (Graphit-Weichfilz)",
+    cat_cured: "Hartfilz (Festkohlefaser)",
     cat_cc: "C/C-Verbundwerkstoffe",
     cat_racks: "C/C-Gestelle & Trägerplatten",
+    cat_soft_specs: "VLG / VLGY · ≤0,17–0,23 W/m·K @1000 °C · ≤77 ppm gereinigt",
+    cat_cured_specs: "20–300 mm · starr · ≤0,25 W/m·K @1000 °C",
+    cat_cc_specs: "≤1,8 g/cm³ · ≥120 MPa · bis 3200 °C",
+    badge_metal: "≤1500 °C · Metall-WB",
+    badge_si: "≤1800 °C · Si-Ziehen",
+    badge_graph: "≤2200 °C · Graphitisierung",
+    badge_sic: "≤2400 °C · SiC-Züchtung",
+    badge_inert: "≤3200 °C · Inert",
+    gallery_alt: "Anwendung",
+    racks_ht_title: "Wärmebehandlungsgestelle",
+    racks_ht_1: "CTE ~0,5×10⁻⁶/°C",
+    racks_ht_2: "Dichte ~1,5 g/cm³",
+    racks_ht_3: "Kohlenstoff ≥99,9 %",
+    racks_ht_4: "Bis 3200 °C (inert)",
+    racks_plates_title: "Trägerplatten",
+    racks_plates_1: "Druckfestigkeit ≥180 MPa",
+    racks_plates_2: "Biegefestigkeit ≥120 MPa",
+    racks_plates_3: "Rissbeständiger als Graphit",
+    racks_plates_4: "Werkstückschonende Gleitfähigkeit",
+    racks_img_rack: "C/C-Gestell",
+    racks_img_plate: "Trägerplatte",
+    form_opt_soft: "Weichfilz",
+    form_opt_cured: "Hartfilz",
+    form_opt_cc: "C/C-Verbund",
+    form_opt_racks: "Gestelle / Trägerplatten",
+    form_opt_other: "Sonstiges",
     img_placeholder: "Produkt-/Anwendungsfoto einfügen (eigene Aufnahme oder freigegebenes Bild)",
   },
   en: {
@@ -95,7 +138,24 @@ window.SITE_CONTENT = {
     applications_title: "Applications",
     applications_intro: "Structured by process temperature and industry – comparable to leading high-temperature solution providers.",
     technology_title: "Material technology",
-    technology_intro: "Continuous CVD and oxidation etching enable targeted adjustment of morphology, density and porosity.",
+    technology_intro: "Tailored thermal-field materials via continuous CVD and oxidation etching.",
+    tech_p3_1: "Continuous CVD + oxidation etching: controlled fiber surface modification to final sealing",
+    tech_p3_2: "Adjustable morphology, density and porosity",
+    tech_p3_3: "At 1000 °C: thermal conductivity 0.15–35 W/m·K",
+    tech_p3_4: "Compressive strength: 0.1–300 MPa",
+    tech_p3_5: "At 600 °C in O₂: ablation rate 5–30%",
+    tech_p3_6: "Process customization for specific customer environments",
+    tech_surfaces_title: "Cured felt – surface variants",
+    surface_cloth: "Surface layer carbon cloth",
+    surface_paper: "Surface layer graphite paper",
+    surface_bare: "Surface bare face",
+    surface_cfc: "Surface layer CFC",
+    tech_cc_title: "C/C composite materials",
+    tech_cc_intro: "Flexible C/C production with precise density and surface treatment.",
+    tech_cc_1: "Unique gas-liquid carburizing densification for convenient density control",
+    tech_cc_2: "Custom textile and needle-punching processes for different operating conditions",
+    tech_cc_3: "Optional boronizing or siliconizing on request",
+    tech_cc_4: "Ash content: 4.98 ppm after purification",
     contact_title: "Contact & inquiry",
     contact_intro: "Send us your inquiry regarding material, dimensions, furnace type or application. We will respond via contact@zhou-consult.de.",
     contact_company: "Ping Zhou Consulting",
@@ -115,6 +175,32 @@ window.SITE_CONTENT = {
     cat_cured: "Cured felt (rigid felt / solid carbon fiber)",
     cat_cc: "C/C composite materials",
     cat_racks: "C/C racks & carrier plates",
+    cat_soft_specs: "VLG / VLGY · ≤0.17–0.23 W/m·K @1000 °C · ≤77 ppm purified",
+    cat_cured_specs: "20–300 mm · rigid · ≤0.25 W/m·K @1000 °C",
+    cat_cc_specs: "≤1.8 g/cm³ · ≥120 MPa · up to 3200 °C",
+    badge_metal: "≤1500 °C · Metal HT",
+    badge_si: "≤1800 °C · Si pulling",
+    badge_graph: "≤2200 °C · Graphitization",
+    badge_sic: "≤2400 °C · SiC growth",
+    badge_inert: "≤3200 °C · Inert",
+    gallery_alt: "Application",
+    racks_ht_title: "Heat treatment racks",
+    racks_ht_1: "CTE ~0.5×10⁻⁶/°C",
+    racks_ht_2: "Density ~1.5 g/cm³",
+    racks_ht_3: "Carbon ≥99.9%",
+    racks_ht_4: "Up to 3200 °C (inert)",
+    racks_plates_title: "Carrier plates",
+    racks_plates_1: "Compressive ≥180 MPa",
+    racks_plates_2: "Flexural ≥120 MPa",
+    racks_plates_3: "Crack-resistant vs. graphite",
+    racks_plates_4: "Workpiece-friendly lubricity",
+    racks_img_rack: "C/C rack",
+    racks_img_plate: "Carrier plate",
+    form_opt_soft: "Soft felt",
+    form_opt_cured: "Cured felt",
+    form_opt_cc: "C/C composite",
+    form_opt_racks: "Racks / carrier plates",
+    form_opt_other: "Other",
     img_placeholder: "Insert product/application photo (own image or licensed material)",
   }
 };
@@ -122,7 +208,7 @@ window.SITE_CONTENT = {
 window.PRODUCTS = [
   {
     id: "soft-felt",
-    title: { de: "Soft felt – Graphit-Weichfilz", en: "Soft felt – graphite felt" },
+    title: { de: "Weichfilz – Graphit-Weichfilz", en: "Soft felt – graphite felt" },
     summary: {
       de: "Viskose-basierter Graphitfilz mit niedriger Dichte und niedriger Wärmeleitfähigkeit für Hochtemperatur-Isolation.",
       en: "Viscose-based graphite felt with low density and low thermal conductivity for high-temperature insulation."
@@ -131,45 +217,76 @@ window.PRODUCTS = [
       de: ["Hervorragendes Isolationsmaterial bis 3200 °C", "Ideal für PV-Ziehofen und Induktionssinteröfen", "Auch als ablationsbeständiges Material geeignet", "Konfigurierbar: Dicke, Dichte, Graphitisierungsgrad"],
       en: ["Excellent insulation up to 3200 °C", "Ideal for PV pulling and induction sintering furnaces", "Also suitable as ablation-resistant material", "Configurable: thickness, density, graphitization degree"]
     },
-    specs: [
-      ["Property", "VLG-5 / VLG-10", "VLGY-5 / VLGY-10"],
-      ["Thickness (mm)", "5 / 10", "5 / 10"],
-      ["Density (g/cm³)", "0.08–0.11", "0.07–0.09"],
-      ["Width (m)", "1.3–1.6", "1.3–1.6"],
-      ["Breaking strength (MPa)", "≥0.3", "≥0.2"],
-      ["Carbon content (%)", "≥99.80", "≥99.80"],
-      ["Thermal conductivity @1000 °C (W/m·K)", "≤0.17", "≤0.23"],
-      ["Thermal conductivity @1500 °C (W/m·K)", "≤0.35", "≤0.38"],
-      ["Heat treatment temp (°C)", "≥1800", "≥1800"],
-      ["Fiber shedding (%)", "≤0.3", "≤0.3"],
-      ["Ash content (ppm)", "≤300", "≤300"],
-      ["Purified ash (ppm)", "≤77.06", "—"]
-    ]
+    specs: {
+      de: [
+        ["Eigenschaft", "VLG-5 / VLG-10", "VLGY-5 / VLGY-10"],
+        ["Dicke (mm)", "5 / 10", "5 / 10"],
+        ["Dichte (g/cm³)", "0,08–0,11", "0,07–0,09"],
+        ["Breite (m)", "1,3–1,6", "1,3–1,6"],
+        ["Reißfestigkeit (MPa)", "≥0,3", "≥0,2"],
+        ["Kohlenstoffgehalt (%)", "≥99,80", "≥99,80"],
+        ["Wärmeleitfähigkeit @1000 °C (W/m·K)", "≤0,17", "≤0,23"],
+        ["Wärmeleitfähigkeit @1500 °C (W/m·K)", "≤0,35", "≤0,38"],
+        ["Wärmebehandlungstemperatur (°C)", "≥1800", "≥1800"],
+        ["Faserausfall (%)", "≤0,3", "≤0,3"],
+        ["Aschegehalt (ppm)", "≤300", "≤300"],
+        ["Gereinigte Asche (ppm)", "≤77,06", "—"]
+      ],
+      en: [
+        ["Property", "VLG-5 / VLG-10", "VLGY-5 / VLGY-10"],
+        ["Thickness (mm)", "5 / 10", "5 / 10"],
+        ["Density (g/cm³)", "0.08–0.11", "0.07–0.09"],
+        ["Width (m)", "1.3–1.6", "1.3–1.6"],
+        ["Breaking strength (MPa)", "≥0.3", "≥0.2"],
+        ["Carbon content (%)", "≥99.80", "≥99.80"],
+        ["Thermal conductivity @1000 °C (W/m·K)", "≤0.17", "≤0.23"],
+        ["Thermal conductivity @1500 °C (W/m·K)", "≤0.35", "≤0.38"],
+        ["Heat treatment temp (°C)", "≥1800", "≥1800"],
+        ["Fiber shedding (%)", "≤0.3", "≤0.3"],
+        ["Ash content (ppm)", "≤300", "≤300"],
+        ["Purified ash (ppm)", "≤77.06", "—"]
+      ]
+    }
   },
   {
     id: "cured-felt",
-    title: { de: "Cured felt – Hartfilz", en: "Cured felt – rigid insulation" },
+    title: { de: "Hartfilz – Festkohlefaser", en: "Cured felt – rigid insulation" },
     summary: {
       de: "Starre, selbsttragende Hartisolierung für Hochtemperaturofen.",
       en: "Rigid, self-supporting hard insulation for high-temperature furnaces."
     },
     bullets: {
-      de: ["Kein Kurzfaserausfall", "Niedrige Wärmeleitfähigkeit", "Formen: Platte, Scheibe, Zylinder", "Oberflächen: Carbon cloth, Graphitpapier, CFC"],
+      de: ["Kein Kurzfaserausfall", "Niedrige Wärmeleitfähigkeit", "Formen: Platte, Scheibe, Zylinder", "Oberflächen: Kohlenstoffgewebe, Graphitpapier, CFC"],
       en: ["No short-fiber shedding", "Low thermal conductivity", "Shapes: plate, disc, cylinder", "Surfaces: carbon cloth, graphite paper, CFC"]
     },
-    specs: [
-      ["Property", "Value"],
-      ["Thickness (mm)", "20–300"],
-      ["Density (g/cm³)", "≤0.18"],
-      ["Width/Diameter (mm)", "≤1800"],
-      ["Length/Height (mm)", "≤2400"],
-      ["Tensile strength (MPa)", "≥1"],
-      ["Compressive strength (MPa)", "≥2"],
-      ["Thermal conductivity @1000 °C (W/m·K)", "≤0.25"],
-      ["Thermal conductivity @1500 °C (W/m·K)", "≤0.30"],
-      ["Carbon content (%)", "≥99.80"],
-      ["Ash content (ppm)", "≤300 / purified 39.5"]
-    ]
+    specs: {
+      de: [
+        ["Eigenschaft", "Wert"],
+        ["Dicke (mm)", "20–300"],
+        ["Dichte (g/cm³)", "≤0,18"],
+        ["Breite/Durchmesser (mm)", "≤1800"],
+        ["Länge/Höhe (mm)", "≤2400"],
+        ["Zugfestigkeit (MPa)", "≥1"],
+        ["Druckfestigkeit (MPa)", "≥2"],
+        ["Wärmeleitfähigkeit @1000 °C (W/m·K)", "≤0,25"],
+        ["Wärmeleitfähigkeit @1500 °C (W/m·K)", "≤0,30"],
+        ["Kohlenstoffgehalt (%)", "≥99,80"],
+        ["Aschegehalt (ppm)", "≤300 / gereinigt 39,5"]
+      ],
+      en: [
+        ["Property", "Value"],
+        ["Thickness (mm)", "20–300"],
+        ["Density (g/cm³)", "≤0.18"],
+        ["Width/Diameter (mm)", "≤1800"],
+        ["Length/Height (mm)", "≤2400"],
+        ["Tensile strength (MPa)", "≥1"],
+        ["Compressive strength (MPa)", "≥2"],
+        ["Thermal conductivity @1000 °C (W/m·K)", "≤0.25"],
+        ["Thermal conductivity @1500 °C (W/m·K)", "≤0.30"],
+        ["Carbon content (%)", "≥99.80"],
+        ["Ash content (ppm)", "≤300 / purified 39.5"]
+      ]
+    }
   },
   {
     id: "cc-composite",
@@ -182,20 +299,36 @@ window.PRODUCTS = [
       de: ["Dichte 1,65–2,0 g/cm³", "Festigkeit steigt bis 2200 °C", "Reibungskoeffizient 0,2–0,45", "Formen: Platten, Scheiben, Zylinder, Schrauben"],
       en: ["Density 1.65–2.0 g/cm³", "Strength increases up to 2200 °C", "Friction coefficient 0.2–0.45", "Shapes: plates, discs, cylinders, fasteners"]
     },
-    specs: [
-      ["Property", "Value"],
-      ["Thickness (mm)", "1.2–200"],
-      ["Density (g/cm³)", "≤1.8"],
-      ["Width/Diameter (mm)", "≤1800"],
-      ["Length/Height (mm)", "≤2400"],
-      ["Tensile strength (MPa)", "≥90"],
-      ["Compressive strength (MPa)", "≥120 / racks ≥180"],
-      ["Flexural strength (MPa)", "≥120 (carrier plates)"],
-      ["Thermal conductivity @1000 °C (W/m·K)", "≤35"],
-      ["Thermal conductivity @1500 °C (W/m·K)", "≤5"],
-      ["Carbon content (%)", "≥99.80 / racks ≥99.9"],
-      ["Ash content (ppm)", "≤200 / purified 4.98"]
-    ]
+    specs: {
+      de: [
+        ["Eigenschaft", "Wert"],
+        ["Dicke (mm)", "1,2–200"],
+        ["Dichte (g/cm³)", "≤1,8"],
+        ["Breite/Durchmesser (mm)", "≤1800"],
+        ["Länge/Höhe (mm)", "≤2400"],
+        ["Zugfestigkeit (MPa)", "≥90"],
+        ["Druckfestigkeit (MPa)", "≥120 / Gestelle ≥180"],
+        ["Biegefestigkeit (MPa)", "≥120 (Trägerplatten)"],
+        ["Wärmeleitfähigkeit @1000 °C (W/m·K)", "≤35"],
+        ["Wärmeleitfähigkeit @1500 °C (W/m·K)", "≤5"],
+        ["Kohlenstoffgehalt (%)", "≥99,80 / Gestelle ≥99,9"],
+        ["Aschegehalt (ppm)", "≤200 / gereinigt 4,98"]
+      ],
+      en: [
+        ["Property", "Value"],
+        ["Thickness (mm)", "1.2–200"],
+        ["Density (g/cm³)", "≤1.8"],
+        ["Width/Diameter (mm)", "≤1800"],
+        ["Length/Height (mm)", "≤2400"],
+        ["Tensile strength (MPa)", "≥90"],
+        ["Compressive strength (MPa)", "≥120 / racks ≥180"],
+        ["Flexural strength (MPa)", "≥120 (carrier plates)"],
+        ["Thermal conductivity @1000 °C (W/m·K)", "≤35"],
+        ["Thermal conductivity @1500 °C (W/m·K)", "≤5"],
+        ["Carbon content (%)", "≥99.80 / racks ≥99.9"],
+        ["Ash content (ppm)", "≤200 / purified 4.98"]
+      ]
+    }
   }
 ];
 
@@ -204,34 +337,19 @@ window.APPLICATIONS = [
   { temp: "≤1800 °C", de: "Monokristallines Silizium-Ziehen (PV/Halbleiter)", en: "Monocrystalline silicon pulling (PV/semiconductor)" },
   { temp: "≤2200 °C", de: "Hochtemperatur-Graphitisierung", en: "High-temperature graphitization" },
   { temp: "≤2400 °C", de: "SiC-Kristallzüchtung", en: "SiC crystal growth" },
-  { temp: "≤3200 °C", de: "Max. Betriebstemperatur Graphitprodukte (inert)", en: "Max. operating temperature graphite products (inert)" }
+  { temp: "≤3200 °C", de: "Max. Betriebstemperatur Graphitprodukte (Inertgas)", en: "Max. operating temperature graphite products (inert)" }
 ];
 
 window.DOWNLOADS = [
   {
-    file: "downloads/Datasheet_ Thermal Field Products Ping_Zhou_Consulting2026V1.pdf",
-    title: { de: "Produktdatenblatt 2026V1 (PDF)", en: "Product datasheet 2026V1 (PDF)" },
-    desc: { de: "Gesamtübersicht Thermofeld-Produkte", en: "Thermal field products overview" }
+    file: "downloads/Datasheet_ Thermal Field Products Ping_Zhou_Consulting2026V2.pdf",
+    title: { de: "Produktdatenblatt 2026V2 (PDF)", en: "Product datasheet 2026V2 (PDF)" },
+    desc: { de: "Thermofeld-Produkte inkl. Graphit-Weichfilz", en: "Thermal field products incl. graphite soft felt" }
   },
   {
     file: "downloads/Introduction_Thermal_Field_Materials_2026V1.pdf",
     title: { de: "Produktpräsentation 2026V1 (PDF)", en: "Product presentation 2026V1 (PDF)" },
     desc: { de: "Technische Einführung und Anwendungen", en: "Technical introduction and applications" }
-  },
-  {
-    file: "downloads/01_Integral_Needle-Punched_Solidified_Felt.docx",
-    title: { de: "Cured felt – Integral Needle-Punched", en: "Cured felt – integral needle-punched" },
-    desc: { de: "Einzelnes Produktdatenblatt", en: "Individual product datasheet" }
-  },
-  {
-    file: "downloads/02_Carbon_Cloth_Laminated_Carbon_Plate.docx",
-    title: { de: "C/C – Carbon Cloth Laminated Plate", en: "C/C – carbon cloth laminated plate" },
-    desc: { de: "Einzelnes Produktdatenblatt", en: "Individual product datasheet" }
-  },
-  {
-    file: "downloads/03_U-Shaped_Carbon-Carbon_Edge.docx",
-    title: { de: "C/C – U-Shaped Edge", en: "C/C – U-shaped edge" },
-    desc: { de: "Einzelnes Produktdatenblatt", en: "Individual product datasheet" }
   }
 ];
 
@@ -241,6 +359,18 @@ window.IMAGES = {
   curedFelt: "images/graphit-felt.png",
   ccPlate: "images/cfc-plate.png",
   ccProfile: "images/cfc-u-profile.png",
+  technology: {
+    softFelt: "images/tech-soft-felt.png",
+    curedFelt: "images/tech-cured-felt.png",
+    ccComposite: "images/tech-cc-composite.png",
+    curedSurfaces: [
+      "images/surface-carbon-cloth.png",
+      "images/surface-graphite-paper.png",
+      "images/surface-bare-face.png",
+      "images/surface-cfc.png"
+    ],
+    curedSurfaceLabels: ["surface_cloth", "surface_paper", "surface_bare", "surface_cfc"],
+  },
   gallery: [
     "images/product_02.jpeg",
     "images/gallery-bolts.png",
@@ -252,11 +382,21 @@ window.IMAGES = {
   ]
 };
 
-window.COMPARISON = [
-  ["Product", "λ @1000 °C (W/m·K)", "Density (g/cm³)", "Air ablation @600 °C 1h (%)"],
-  ["VLG-10 (China)", "0.17", "0.10", "6.21"],
-  ["VLGY-10 (China)", "0.23", "0.08", "9.95"],
-  ["SGL soft felt (DE)", "0.25", "0.10", "10.12"],
-  ["Melson soft felt (FR)", "0.25", "0.08", "6.32"],
-  ["Morgan soft felt (US)", "0.23", "0.10", "10.22"]
-];
+window.COMPARISON = {
+  de: [
+    ["Produkt", "λ @1000 °C (W/m·K)", "Dichte (g/cm³)", "Luftablation @600 °C 1h (%)"],
+    ["VLG-10 Weichfilz (China)", "0,17", "0,10", "6,21"],
+    ["VLGY-10 Weichfilz (China)", "0,23", "0,08", "9,95"],
+    ["SGL Weichfilz (DE)", "0,25", "0,10", "10,12"],
+    ["Melson Weichfilz (FR)", "0,25", "0,08", "6,32"],
+    ["Morgan Weichfilz (US)", "0,23", "0,10", "10,22"]
+  ],
+  en: [
+    ["Product", "λ @1000 °C (W/m·K)", "Density (g/cm³)", "Air ablation @600 °C 1h (%)"],
+    ["VLG-10 soft felt (China)", "0.17", "0.10", "6.21"],
+    ["VLGY-10 soft felt (China)", "0.23", "0.08", "9.95"],
+    ["SGL soft felt (DE)", "0.25", "0.10", "10.12"],
+    ["Melson soft felt (FR)", "0.25", "0.08", "6.32"],
+    ["Morgan soft felt (US)", "0.23", "0.10", "10.22"]
+  ]
+};

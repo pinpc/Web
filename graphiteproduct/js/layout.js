@@ -82,9 +82,23 @@
       </footer>`;
   }
 
+  function applyMaterialImages() {
+    if (!window.IMAGES || (location.pathname.split("/").pop() || "") === "technology.html") return;
+    const map = {
+      "soft-felt": IMAGES.softFelt,
+      "cured-felt": IMAGES.curedFelt,
+      "cc-composite": IMAGES.ccPlate,
+    };
+    document.querySelectorAll("img[data-material]").forEach((img) => {
+      const src = map[img.getAttribute("data-material")];
+      if (src) img.src = src;
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     renderHeader();
     renderFooter();
+    applyMaterialImages();
     window.addEventListener("langchange", () => {
       renderHeader();
       renderFooter();

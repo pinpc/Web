@@ -18,32 +18,51 @@
   </section>
 
   <section class="section">
-    <div class="container grid-3">
-      <div class="card">
-        <img class="product-img" src="images/product_03.png" alt="CVD process">
-        <h3>CVD & Oxidation Etching</h3>
-        <ul>
-          <li>Continuous CVD + oxidation etching</li>
-          <li>Controlled fiber surface modification to final sealing</li>
-          <li>Adjustable morphology, density, porosity</li>
-        </ul>
+    <div class="container">
+      <div class="grid-3 tech-materials">
+        <figure class="card card-with-img">
+          <img src="images/tech-soft-felt.png" alt="Weichfilz" data-tech-material="soft-felt" data-i18n-alt="cat_soft">
+          <h3 data-i18n="cat_soft">Weichfilz (Graphit-Weichfilz)</h3>
+        </figure>
+        <figure class="card card-with-img">
+          <img src="images/tech-cured-felt.png" alt="Hartfilz" data-tech-material="cured-felt" data-i18n-alt="cat_cured">
+          <h3 data-i18n="cat_cured">Hartfilz (Festkohlefaser)</h3>
+        </figure>
+        <figure class="card card-with-img">
+          <img src="images/tech-cc-composite.png" alt="C/C-Verbund" data-tech-material="cc-composite" data-i18n-alt="cat_cc">
+          <h3 data-i18n="cat_cc">C/C-Verbundwerkstoffe</h3>
+        </figure>
       </div>
-      <div class="card">
-        <h3>Adjustable properties @1000 °C</h3>
+      <ul style="margin-top:1.5rem">
+        <li data-i18n="tech_p3_1">Kontinuierliches CVD + Oxidationsätzen: gezielte Faseroberflächenmodifikation bis zur Endverdichtung</li>
+        <li data-i18n="tech_p3_2">Einstellbare Morphologie, Dichte und Porosität</li>
+        <li data-i18n="tech_p3_3">Bei 1000 °C: Wärmeleitfähigkeit 0,15–35 W/m·K</li>
+        <li data-i18n="tech_p3_4">Druckfestigkeit: 0,1–300 MPa</li>
+        <li data-i18n="tech_p3_5">Bei 600 °C in O₂: Ablationsrate 5–30 %</li>
+        <li data-i18n="tech_p3_6">Prozessanpassung für spezifische Kundenumgebungen</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <h2 data-i18n="tech_surfaces_title">Hartfilz – Oberflächenvarianten</h2>
+      <div class="grid-4" id="cured-surfaces-root"></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <article class="card">
+        <h2 data-i18n="tech_cc_title">C/C-Verbundwerkstoffe</h2>
+        <p class="section-intro" data-i18n="tech_cc_intro"></p>
         <ul>
-          <li>Thermal conductivity: 0.15–35 W/m·K</li>
-          <li>Compressive strength: 0.1–300 MPa</li>
-          <li>Ablation rate @600 °C in O₂: 5–30%</li>
+          <li data-i18n="tech_cc_1">Einzigartige Gas-Flüssig-Karburierung zur bequemen Dichtekontrolle</li>
+          <li data-i18n="tech_cc_2">Individuelle Textil- und Nadelvlies-Prozesse für unterschiedliche Betriebsbedingungen</li>
+          <li data-i18n="tech_cc_3">Optional Borierung oder Silizierung auf Anfrage</li>
+          <li data-i18n="tech_cc_4">Aschegehalt: 4,98 ppm nach Reinigung</li>
         </ul>
-      </div>
-      <div class="card">
-        <h3>Customization</h3>
-        <ul>
-          <li>Gas-liquid carburizing densification (C/C)</li>
-          <li>Custom textile / needle punching</li>
-          <li>Optional boronizing / siliconizing</li>
-        </ul>
-      </div>
+      </article>
     </div>
   </section>
 
@@ -52,5 +71,6 @@
   <script src="js/content.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/layout.js"></script>
+  <script src="js/render.js"></script>
 </body>
 </html>

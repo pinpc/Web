@@ -37,6 +37,18 @@
         el.innerHTML = SITE_CONTENT[lang][key];
       }
     });
+    document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-alt");
+      if (SITE_CONTENT[lang][key] !== undefined) {
+        el.setAttribute("alt", SITE_CONTENT[lang][key]);
+      }
+    });
+    document.querySelectorAll("option[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (SITE_CONTENT[lang][key] !== undefined) {
+        el.textContent = SITE_CONTENT[lang][key];
+      }
+    });
     if (document.titleKey) {
       document.title = t(document.titleKey, lang);
     }
