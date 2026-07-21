@@ -20,6 +20,7 @@
   }
 
   function applyLang(lang) {
+    if (!window.HUB_CONTENT || !HUB_CONTENT[lang]) return;
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       const key = el.getAttribute("data-i18n");
       if (HUB_CONTENT[lang][key] !== undefined) {
