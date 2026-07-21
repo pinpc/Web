@@ -145,3 +145,4 @@ a:hover { text-decoration: underline; }
   flex-wrap: wrap;
 }
 .footer-legal { display: flex; gap: 1rem; flex-wrap: wrap; }
+.legal-page { max-width: 760px; }

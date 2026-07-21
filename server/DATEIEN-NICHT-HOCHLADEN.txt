@@ -1,0 +1,13 @@
+Diese Dateien/Ordner NICHT auf den Server hochladen:
+
+_live_impressum.html
+_live_datenschutz.html
+_live_content.js
+_live_products.html
+_live_render.js
+_live_technology.html
+.git/
+punu/
+graphiteproduct/_pdf_extract.txt
+graphiteproduct/images/cured-felt-surfaces.png  (ungenutzt, ersetzt durch surface-*.png)
+server/  (nur Anleitung lokal)

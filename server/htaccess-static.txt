@@ -1,0 +1,10 @@
+# Statische Website zhou-consult.com
+# Hauptseite: index.html vor WordPress (falls WP noch Restdateien hat)
+DirectoryIndex index.html index.php
+
+# Optional: WordPress-Restpfade blockieren (nach Archivierung)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^wp-admin - [F,L]
+RewriteRule ^wp-login\.php - [F,L]
+</IfModule>

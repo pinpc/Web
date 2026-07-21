@@ -5,14 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ping-Pong-Robotik | Ping Zhou Consulting</title>
   <link rel="stylesheet" href="../css/style.css">
+  <script>document.titleKey = "robot_title";</script>
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="../index.html">
+        <img src="../images/zhou_consulting_logo.png" alt="Ping Zhou Consulting">
+        <span>Ping Zhou <span>Consulting</span></span>
+      </a>
+      <div class="lang-switch">
+        <button type="button" data-lang="de" class="active">DE</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
   <section class="hero" style="padding:3rem 0">
     <div class="container">
-      <h1>Ping-Pong-Robotik</h1>
-      <p>Produktbereich in Vorbereitung. Bitte kontaktieren Sie <a href="mailto:contact@zhou-consult.de">contact@zhou-consult.de</a>.</p>
-      <p><a href="../index.html">← Zurück zur Startseite</a></p>
+      <h1 data-i18n="robot_title">Ping-Pong-Robotik</h1>
+      <p data-i18n-html="robot_intro">Produktbereich in Vorbereitung. Bitte kontaktieren Sie <a href="mailto:contact@zhou-consult.de">contact@zhou-consult.de</a>.</p>
+      <p><a href="../index.html" data-i18n="back_home">← Zurück zur Startseite</a></p>
     </div>
   </section>
+  <script src="../js/content.js"></script>
+  <script src="../js/i18n.js"></script>
 </body>
 </html>

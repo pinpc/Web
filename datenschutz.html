@@ -5,20 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Datenschutz | Ping Zhou Consulting</title>
   <link rel="stylesheet" href="css/style.css">
+  <script>document.titleKey = "privacy_title";</script>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="index.html">Ping Zhou <span>Consulting</span></a>
+      <a class="logo" href="index.html">
+        <img src="images/zhou_consulting_logo.png" alt="Ping Zhou Consulting">
+        <span>Ping Zhou <span>Consulting</span></span>
+      </a>
+      <div class="lang-switch">
+        <button type="button" data-lang="de" class="active">DE</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
     </div>
   </header>
   <section class="section">
-    <div class="container" style="max-width:760px">
-      <h1>Datenschutz</h1>
-      <p>Bei Kontaktaufnahme per E-Mail oder über Produktbereichs-Formulare werden Ihre Angaben zur Bearbeitung der Anfrage verarbeitet. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
-      <p>Verantwortlich: Ping Zhou Consulting, St.-Charles-Ring 2/1, 71638 Ludwigsburg, contact@zhou-consult.de</p>
-      <p><a href="index.html">← Zurück zur Startseite</a></p>
+    <div class="container legal-page">
+      <h1 data-i18n="privacy_title">Datenschutz</h1>
+      <div data-i18n-html="privacy_body">
+        <p>Bei Kontaktaufnahme per E-Mail oder über Produktbereichs-Formulare werden Ihre Angaben zur Bearbeitung der Anfrage verarbeitet. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
+        <p>Verantwortlich: Ping Zhou Consulting, St.-Charles-Ring 2/1, 71638 Ludwigsburg, contact@zhou-consult.de</p>
+      </div>
+      <p style="margin-top:2rem"><a href="index.html" data-i18n="back_home">← Zurück zur Startseite</a></p>
     </div>
   </section>
+  <script src="js/content.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 </html>

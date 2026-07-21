@@ -1,0 +1,8 @@
+punu/
+server/
+README.md
+.gitignore
+.git/
+graphiteproduct/_pdf_extract.txt
+graphiteproduct/LOKAL-UND-UPLOAD.md
+graphiteproduct/SITEGROUND-ANLEITUNG.md

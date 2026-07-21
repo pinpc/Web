@@ -5,3 +5,10 @@ __pycache__/
 .env
 .env.*
 *.docx
+
+# Temporäre Server-Vergleichsdateien (nicht deployen)
+_live_*.html
+_live_*.js
+
+# Ungenutztes Bild (ersetzt durch surface-*.png)
+graphiteproduct/images/cured-felt-surfaces.png
