@@ -17,7 +17,7 @@ window.SITE_CONTENT = {
     hero_cta_training: "Training in der Praxis",
     training_meta_title: "Training in der Praxis | Tischtennis-Roboter",
     training_title: "Training in der Praxis",
-    training_intro: "Videos aus Vereinstraining, Aufbau und Anwendung – sowie unsere Kanäle in Social Media.",
+    training_intro: "Videos aus Vereinstraining, Aufbau und Anwendung vor Ort.",
     training_videos_title: "Videos",
     training_social_title: "Social Media",
     training_social_intro: "Folgen Sie uns für Trainingstipps, Demos und Neuigkeiten rund um Tischtennis-Roboter.",
@@ -97,7 +97,7 @@ window.SITE_CONTENT = {
     hero_cta_training: "Training in practice",
     training_meta_title: "Training in Practice | Table Tennis Robots",
     training_title: "Training in practice",
-    training_intro: "Videos from club training, setup and daily use – plus our social media channels.",
+    training_intro: "Videos from club training, setup and daily use on site.",
     training_videos_title: "Videos",
     training_social_title: "Social media",
     training_social_intro: "Follow us for training tips, demos and news about table tennis robots.",
@@ -562,6 +562,7 @@ window.COMPARISON = {
 };
 
 window.MEDIA = {
+  showSocial: false,
   videos: [
     {
       id: "club-training",

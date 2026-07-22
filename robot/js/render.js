@@ -108,8 +108,11 @@
           <p>${v.desc[lang] || v.desc.en}</p>
         </article>`).join("");
     }
+    const socialSection = document.getElementById("media-social-section");
     const socialRoot = document.getElementById("media-social-root");
-    if (socialRoot && MEDIA.social) {
+    if (socialSection && MEDIA.showSocial === false) {
+      socialSection.hidden = true;
+    } else if (socialRoot && MEDIA.social) {
       const active = MEDIA.social.filter((s) => s.url);
       if (!active.length) {
         socialRoot.innerHTML = `<p class="media-empty" data-i18n="training_social_empty">${t("training_social_empty", lang)}</p>
@@ -133,6 +136,7 @@
           </a>`;
         }).join("")}</div>`;
       }
+      if (socialSection) socialSection.hidden = false;
     }
   }
 
