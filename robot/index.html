@@ -3,31 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ping-Pong-Robotik | Ping Zhou Consulting</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <script>document.titleKey = "robot_title";</script>
+  <title>Tischtennis-Roboter | Ping Zhou Consulting</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.titleKey = "meta_title";</script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="../index.html">
-        <img src="../images/zhou_consulting_logo.png" alt="Ping Zhou Consulting">
-        <span>Ping Zhou <span>Consulting</span></span>
-      </a>
-      <div class="lang-switch">
-        <button type="button" data-lang="de" class="active">DE</button>
-        <button type="button" data-lang="en">EN</button>
+  <div id="site-header"></div>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow" data-i18n="hero_eyebrow">Dora-Serie · Intelligente Trainingsgeräte</p>
+          <h1 data-i18n="hero_title">Ihr Trainingspartner on demand</h1>
+          <p class="lead" data-i18n="hero_sub">Intelligente Tischtennis-Roboter für Verein, Schule und Zuhause – mit Einweisung, Wartung und persönlichem Service in Deutschland.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html" data-i18n="hero_cta_demo">Demo anfragen</a>
+            <a class="btn btn-primary" href="products.html" style="background:transparent;border:1px solid rgba(255,255,255,0.15);box-shadow:none" data-i18n="hero_cta_models">Modelle vergleichen</a>
+            <a class="btn btn-primary" href="training.html" style="background:transparent;border:1px solid rgba(255,255,255,0.15);box-shadow:none" data-i18n="hero_cta_training">Training in der Praxis</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong data-i18n="hero_stat_1">30–90 Bälle/Min.</strong></div>
+            <div><strong data-i18n="hero_stat_2">3 Jahre Garantie</strong></div>
+            <div><strong data-i18n="hero_stat_3">DE Support</strong></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <video id="hero-video" class="hero-video" autoplay muted loop playsinline poster="images/hero-training.jpg" aria-label="Tischtennistraining mit Dora-Roboter">
+            <source src="videos/training-demo.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-bar">
+      <div class="container trust-items">
+        <span data-i18n="trust_ce">CE · ISO · RoHS</span>
+        <span data-i18n="trust_demo">Demo im Verein</span>
+        <span data-i18n="trust_service">Wartung & Ersatzteile</span>
       </div>
     </div>
-  </header>
-  <section class="hero" style="padding:3rem 0">
-    <div class="container">
-      <h1 data-i18n="robot_title">Ping-Pong-Robotik</h1>
-      <p data-i18n-html="robot_intro">Produktbereich in Vorbereitung. Bitte kontaktieren Sie <a href="mailto:contact@zhou-consult.de">contact@zhou-consult.de</a>.</p>
-      <p><a href="../index.html" data-i18n="back_home">← Zurück zur Startseite</a></p>
-    </div>
-  </section>
-  <script src="../js/content.js"></script>
-  <script src="../js/i18n.js"></script>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="products_title">Produktvarianten</h2>
+          <p class="lead" data-i18n="products_intro">Fünf Modelle der Dora-Serie – vom klassischen Standardgerät bis Dora Max, Smart-Linie und Dora Mini Pro.</p>
+        </div>
+        <div class="products-grid" id="products-preview-root"></div>
+        <p style="margin-top:2rem;text-align:center">
+          <a class="btn btn-primary btn-sm" href="products.html" data-i18n="hero_cta_models">Modelle vergleichen</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="compare_title">Modellvergleich auf einen Blick</h2>
+        </div>
+        <div id="comparison-root"></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/content.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/render.js"></script>
 </body>
 </html>

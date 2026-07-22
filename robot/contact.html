@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo anfragen | Tischtennis-Roboter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.titleKey = "meta_title";</script>
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="section" style="padding-top:2rem">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 data-i18n="contact_title">Demo & Anfrage</h2>
+          <p class="lead" data-i18n="contact_intro">Interesse an Dora, Dora Pro, Dora Max, Dora Smart oder Dora Mini Pro?</p>
+          <p><strong data-i18n="contact_company">Ping Zhou Consulting</strong></p>
+          <p data-i18n="contact_address">St.-Charles-Ring 2/1, 71638 Ludwigsburg</p>
+          <p><a href="tel:+491734680010" data-i18n="contact_phone">+49 173 4680010</a></p>
+          <p><a href="mailto:contact@zhou-consult.de" data-i18n="contact_email">contact@zhou-consult.de</a></p>
+        </div>
+        <form class="card" action="mailto:contact@zhou-consult.de" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label for="form-name" data-i18n="form_name">Name</label>
+            <input id="form-name" name="name" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="form-company" data-i18n="form_company">Verein / Firma</label>
+            <input id="form-company" name="company" type="text">
+          </div>
+          <div class="form-group">
+            <label for="form-email" data-i18n="form_email">E-Mail</label>
+            <input id="form-email" name="email" type="email" required>
+          </div>
+          <div class="form-group">
+            <label for="form-phone" data-i18n="form_phone">Telefon</label>
+            <input id="form-phone" name="phone" type="tel">
+          </div>
+          <div class="form-group">
+            <label for="form-product" data-i18n="form_product">Interesse an Modell</label>
+            <select id="form-product" name="product">
+              <option value="" data-i18n="product_select_default">Bitte wählen</option>
+              <option value="dora" data-i18n="form_opt_dora">Dora</option>
+              <option value="dora-pro" data-i18n="form_opt_dora_pro">Dora Pro</option>
+              <option value="dora-max" data-i18n="form_opt_dora_max">Dora Max</option>
+              <option value="dora-smart" data-i18n="form_opt_dora_smart">Dora Smart</option>
+              <option value="dora-mini-pro" data-i18n="form_opt_dora_mini_pro">Dora Mini Pro</option>
+              <option value="other" data-i18n="form_opt_other">Beratung gewünscht</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-message" data-i18n="form_message">Nachricht</label>
+            <textarea id="form-message" name="message"></textarea>
+          </div>
+          <label class="form-check">
+            <input type="checkbox" required>
+            <span data-i18n="form_privacy">Ich habe die Datenschutzhinweise gelesen.</span>
+          </label>
+          <p style="margin-top:1.25rem">
+            <button class="btn btn-primary" type="submit" data-i18n="form_submit">Anfrage senden</button>
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/content.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/render.js"></script>
+</body>
+</html>

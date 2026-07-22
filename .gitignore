@@ -12,3 +12,8 @@ _live_*.js
 
 # Ungenutztes Bild (ersetzt durch surface-*.png)
 graphiteproduct/images/cured-felt-surfaces.png
+
+# Robot: extrahierte Katalog-/Video-Arbeitsdateien
+robot/images/_extracted/
+robot/images/_pages/
+robot/images/_video_frames/
