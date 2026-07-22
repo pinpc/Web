@@ -12,7 +12,7 @@ Ordner: `c:\temp_ma\00_NACO\NACO Produkt\website\`
 | `products.html` | Produkte + Spezifikationstabellen (aus PDF 2026V1) |
 | `applications.html` | Anwendungen nach Temperatur/Industrie |
 | `technology.html` | CVD-Technologie, Anpassbarkeit |
-| `contact.html` | Kontaktformular → **contact@zhou-consult.de** |
+| `contact.html` | Kontaktformular → **contact@zhou-consult.com** |
 | `css/style.css` | Layout / Corporate Style |
 | `js/content.js` | Alle Texte DE/EN + Produktdaten |
 | `js/i18n.js` | Sprachumschaltung |
@@ -35,8 +35,8 @@ Datenquellen:
 ### Kontaktformular aktivieren
 
 Das Formular nutzt **FormSubmit.co**:
-- Erste Anfrage löst Bestätigungs-Mail an `contact@zhou-consult.de` aus (einmalig bestätigen)
-- Alternative in SiteGround: Formular-Widget im Website Builder + Ziel-Mail `contact@zhou-consult.de`
+- Erste Anfrage löst Bestätigungs-Mail an `contact@zhou-consult.com` aus (einmalig bestätigen)
+- Alternative in SiteGround: Formular-Widget im Website Builder + Ziel-Mail `contact@zhou-consult.com`
 
 ---
 
@@ -47,7 +47,7 @@ Wenn Sie den **Website Builder** nutzen möchten:
 1. Neue Seite `/graphiteproduct` anlegen
 2. Inhalte aus `js/content.js` und `products.html` **abschnittsweise kopieren**
 3. DE- und EN-Version als zwei Seiten oder mit Builder-Sprachfunktion
-4. Kontaktformular im Builder auf `contact@zhou-consult.de` setzen
+4. Kontaktformular im Builder auf `contact@zhou-consult.com` setzen
 
 Struktur wie Referenzseiten:
 - **Start** → Hero + 3 Produktkategorien + ROI
@@ -88,7 +88,7 @@ Empfohlen:
 - [ ] Impressum & Datenschutz von zhou-consult.com verlinken
 - [ ] PDF-Datenblätter aus `Datasheets\` zum Download anbieten
 - [ ] Google Search Console / Analytics
-- [ ] Erste Formular-Testmail an contact@zhou-consult.de
+- [ ] Erste Formular-Testmail an contact@zhou-consult.com
 
 ---
 
@@ -99,5 +99,5 @@ Empfohlen:
 | Produktkategorien | SIGRATHERM, SIGRABOND | Soft felt, Cured felt, C/C |
 | Anwendungen | Vakuumofen, Wärmebehandlung | ≤1500–3200 °C, PV, SiC |
 | Kennwerte | PDF-Downloads | Tabellen auf products.html |
-| Kontakt | Formular | contact@zhou-consult.de |
+| Kontakt | Formular | contact@zhou-consult.com |
 | Sprachen | DE/EN | DE/EN (umschaltbar) |

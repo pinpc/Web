@@ -141,6 +141,12 @@
     const model = params.get("model");
     const select = document.getElementById("form-product");
     if (select && model) select.value = model;
+    if (params.get("sent") === "1") {
+      const form = document.getElementById("contact-form");
+      const sent = document.getElementById("form-sent");
+      if (form) form.hidden = true;
+      if (sent) sent.hidden = false;
+    }
   }
 
   function init() {

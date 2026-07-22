@@ -40,7 +40,7 @@ Dann: http://localhost:8080/
 ### Wichtig beim Upload
 - Ordnerstruktur beibehalten (relative Pfade!)
 - `images/` und `downloads/` vollständig hochladen (~100+ MB wegen Bilder)
-- Nach Upload: Kontaktformular einmal testen → FormSubmit-Bestätigung an `contact@zhou-consult.de`
+- Nach Upload: Kontaktformular einmal testen → FormSubmit-Bestätigung an `contact@zhou-consult.com`
 
 ---
 
@@ -49,7 +49,7 @@ Dann: http://localhost:8080/
 - [ ] Alle Seiten im Browser getestet
 - [ ] DE/EN Texte geprüft
 - [ ] Downloads funktionieren
-- [ ] Kontaktformular sendet an contact@zhou-consult.de
+- [ ] Kontaktformular sendet an contact@zhou-consult.com
 - [ ] Impressum/Datenschutz verlinkt
 - [ ] Optional: Weiterleitung von `/graphiteproduct` auf `index.html` in SiteGround einrichten
 

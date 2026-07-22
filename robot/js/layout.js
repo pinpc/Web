@@ -70,7 +70,7 @@
         <div class="container footer-grid">
           <div>
             <p data-i18n="footer_text">${t("footer_text")}</p>
-            <p><a href="mailto:contact@zhou-consult.de">contact@zhou-consult.de</a> · +49 173 4680010</p>
+            <p><a href="mailto:contact@zhou-consult.com">contact@zhou-consult.com</a> · +49 173 4680010</p>
           </div>
           <div class="footer-legal">
             <a href="../impressum.html" data-i18n="nav_impressum">${t("nav_impressum")}</a>

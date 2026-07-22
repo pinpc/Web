@@ -2,6 +2,17 @@
 # Hauptseite: index.html vor WordPress (falls WP noch Restdateien hat)
 DirectoryIndex index.html index.php
 
+# UTF-8 für JavaScript (Umlaute in content.js)
+AddType application/javascript .js
+AddCharset utf-8 .js
+
+# HTML nicht monatelang cachen (Formular-/Inhalts-Updates)
+<FilesMatch "\.(html|htm)$">
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires "0"
+</FilesMatch>
+
 # Optional: WordPress-Restpfade blockieren (nach Archivierung)
 <IfModule mod_rewrite.c>
 RewriteEngine On

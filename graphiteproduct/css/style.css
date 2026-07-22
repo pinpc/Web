@@ -324,7 +324,7 @@ table.spec-table th { background: #f0efe8; }
 
 form .field { margin-bottom: .9rem; }
 form label { display: block; font-weight: 600; margin-bottom: .25rem; }
-form input, form select, form textarea {
+form input:not([type="checkbox"]):not([type="radio"]), form select, form textarea {
   width: 100%;
   padding: .65rem .75rem;
   border: 1px solid var(--border);
@@ -332,6 +332,20 @@ form input, form select, form textarea {
   font: inherit;
 }
 form textarea { min-height: 130px; resize: vertical; }
+form label.form-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-weight: 400;
+  margin-bottom: 0.9rem;
+  cursor: pointer;
+}
+form label.form-check input[type="checkbox"] {
+  width: auto;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+form label.form-check a { margin-left: 0.25rem; }
 
 .site-footer {
   background: #1f1f1f;

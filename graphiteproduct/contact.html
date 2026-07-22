@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>Contact | Ping Zhou Consulting</title>
   <link rel="stylesheet" href="css/style.css">
   <script>document.titleKey = "contact_title";</script>
@@ -23,10 +26,10 @@
         <h2 data-i18n="contact_company">Ping Zhou Consulting</h2>
         <p data-i18n="contact_address"></p>
         <p><span data-i18n="contact_phone"></span></p>
-        <p><a href="mailto:contact@zhou-consult.de" data-i18n="contact_email"></a></p>
+        <p><a href="mailto:contact@zhou-consult.com" data-i18n="contact_email"></a></p>
       </div>
 
-      <form action="https://formsubmit.co/contact@zhou-consult.de" method="POST">
+      <form action="https://formsubmit.co/contact@zhou-consult.com" method="POST">
         <input type="hidden" name="_subject" value="Graphite Product Inquiry - zhou-consult.com/graphiteproduct">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
@@ -62,9 +65,13 @@
           <label for="message" data-i18n="form_message">Nachricht</label>
           <textarea id="message" name="message" required></textarea>
         </div>
-        <div class="field">
-          <label><input type="checkbox" required> <span data-i18n="form_privacy"></span> <a href="../datenschutz.html" data-i18n="nav_privacy">Datenschutz</a></label>
-        </div>
+        <label class="form-check">
+          <input type="checkbox" required>
+          <span>
+            <span data-i18n="form_privacy"></span>
+            <a href="../datenschutz.html" data-i18n="nav_privacy">Datenschutz</a>
+          </span>
+        </label>
         <button class="btn btn-primary" type="submit" data-i18n="form_submit">Anfrage senden</button>
       </form>
     </div>
@@ -72,8 +79,8 @@
 
   <div id="site-footer"></div>
 
-  <script src="js/content.js"></script>
-  <script src="js/i18n.js"></script>
-  <script src="js/layout.js"></script>
+  <script src="js/content.js?v=5"></script>
+  <script src="js/i18n.js?v=5"></script>
+  <script src="js/layout.js?v=5"></script>
 </body>
 </html>
