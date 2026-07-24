@@ -17,3 +17,11 @@ graphiteproduct/images/cured-felt-surfaces.png
 robot/images/_extracted/
 robot/images/_pages/
 robot/images/_video_frames/
+
+# Private Geschaeftsdateien (Excel, PNG, PDF) – nie committen
+daten/
+daten-geschuetzt.7z
+daten-geschuetzt.7z.*
+
+# Private Web-Bereich (generiert + FTP-Upload, enthaelt ggf. Preislisten/Kataloge)
+server/private/

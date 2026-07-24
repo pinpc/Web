@@ -176,6 +176,17 @@ h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); letter-spacing: -0.02em; }
 }
 .hero-stats span { font-size: 0.875rem; color: var(--text-muted); }
 .hero-stats strong { display: block; color: var(--text); font-size: 1rem; }
+.hero-stat-hint {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.hero-stat-hint a {
+  color: var(--accent-2);
+  text-decoration: none;
+}
+.hero-stat-hint a:hover { text-decoration: underline; }
 .hero-visual {
   border-radius: var(--radius);
   overflow: hidden;
@@ -363,8 +374,15 @@ h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); letter-spacing: -0.02em; }
   margin: 0 auto;
 }
 
+.product-card--featured[id="dora"] .product-img-wrap {
+  max-width: 100%;
+}
+.product-card--featured[id="dora"] .product-img--featured {
+  max-height: 220px;
+  max-width: 100%;
+}
 .product-card--featured[id="dora-smart"] .product-img-wrap,
-.product-card--featured[id="dora-mini-pro"] .product-img-wrap {
+.product-card--featured[id="dora-mini"] .product-img-wrap {
   background: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.12);
 }

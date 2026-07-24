@@ -40,7 +40,7 @@ window.HUB_CONTENT = {
     impressum_body: "<p><strong>Ping Zhou Consulting</strong><br>Geschäftsführer: Ping Zhou<br>St.-Charles-Ring 2/1<br>71638 Ludwigsburg<br>Deutschland</p><p>Telefon: +49 173 4680010<br>E-Mail: contact@zhou-consult.com<br>USt-IdNr.: DE234711240</p>",
     privacy_body: "<p>Bei Kontaktaufnahme per E-Mail oder über Produktbereichs-Formulare werden Ihre Angaben zur Bearbeitung der Anfrage verarbeitet. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO. Die Daten werden gelöscht, sobald die Anfrage abschließend bearbeitet ist.</p><p>Verantwortlich: Ping Zhou Consulting, St.-Charles-Ring 2/1, 71638 Ludwigsburg, contact@zhou-consult.com</p>",
     robot_title: "Ping-Pong-Robotik",
-    robot_intro: "Dora-Serie: intelligente Tischtennis-Roboter – Dora, Dora Pro, Dora Max, Dora Smart und Dora Mini Pro. <a href=\"robot/index.html\">Zum Produktbereich →</a>",
+    robot_intro: "Dora-Serie: intelligente Tischtennis-Roboter – Dora, Dora Max, Dora Smart und Dora Mini. <a href=\"robot/index.html\">Zum Produktbereich →</a>",
   },
   en: {
     meta_title: "Ping Zhou Consulting | Technical Consulting & Sales",
@@ -83,6 +83,6 @@ window.HUB_CONTENT = {
     impressum_body: "<p><strong>Ping Zhou Consulting</strong><br>Managing Director: Ping Zhou<br>St.-Charles-Ring 2/1<br>71638 Ludwigsburg<br>Germany</p><p>Phone: +49 173 4680010<br>Email: contact@zhou-consult.com<br>VAT ID: DE234711240</p>",
     privacy_body: "<p>When contacting us by email or via product area forms, your details are processed to handle your inquiry. Legal basis: Art. 6 (1) lit. b GDPR. Data is deleted once the inquiry is fully processed.</p><p>Controller: Ping Zhou Consulting, St.-Charles-Ring 2/1, 71638 Ludwigsburg, contact@zhou-consult.com</p>",
     robot_title: "Ping-pong robotics",
-    robot_intro: "Dora series: smart table tennis robots – Dora, Dora Pro, Dora Max, Dora Smart and Dora Mini Pro. <a href=\"robot/index.html\">View product area →</a>",
+    robot_intro: "Dora series: smart table tennis robots – Dora, Dora Max, Dora Smart and Dora Mini. <a href=\"robot/index.html\">View product area →</a>",
   }
 };

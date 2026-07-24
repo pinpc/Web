@@ -24,7 +24,9 @@ window.SITE_CONTENT = {
     training_social_empty: "Kanäle werden demnächst verlinkt.",
     training_social_follow: "Profil öffnen",
     hero_stat_1: "30–90 Bälle/Min.",
-    hero_stat_2: "3 Jahre Support",
+    hero_stat_2: "3 Jahre Garantie",
+    hero_stat_2_hint: "Teile 3 J. ·",
+    hero_stat_2_link: "Garantiebedingungen",
     hero_stat_3: "DE Service",
     video_title: "Training in der Praxis",
     video_intro: "Spieler und Roboter im Vereinstraining – so sieht der Einsatz vor Ort aus.",
@@ -32,7 +34,7 @@ window.SITE_CONTENT = {
     trust_demo: "Demo im Verein",
     trust_service: "Wartung & Ersatzteile",
     products_title: "Produktvarianten",
-    products_intro: "Fünf Modelle der Dora-Serie – vom klassischen Standardgerät bis Dora Max, Smart-Linie und Dora Mini Pro. Preise auf Anfrage.",
+    products_intro: "Vier Modelle der Dora-Serie – Dora, Dora Max, Dora Smart und Dora Mini. Preise auf Anfrage.",
     service_title: "Support & Service",
     service_intro: "Ping Zhou Consulting ist Ihr lokaler Ansprechpartner für Tischtennis-Roboter der Dora-Serie in Deutschland.",
     service_demo_title: "Demo & Einweisung",
@@ -44,7 +46,7 @@ window.SITE_CONTENT = {
     service_training_title: "Trainingsberatung",
     service_training_text: "Empfehlung passender Modi für Jugend, Anfänger und Leistungssport – abgestimmt auf Ihren Trainingsplan.",
     contact_title: "Demo & Anfrage",
-    contact_intro: "Interesse an Dora, Dora Pro, Dora Max, Dora Smart oder Dora Mini Pro? Wir melden uns unter contact@zhou-consult.com.",
+    contact_intro: "Interesse an Dora, Dora Max, Dora Smart oder Dora Mini? Wir melden uns unter contact@zhou-consult.com.",
     contact_company: "Ping Zhou Consulting",
     contact_address: "St.-Charles-Ring 2/1, 71638 Ludwigsburg, Deutschland",
     contact_phone: "+49 173 4680010",
@@ -61,16 +63,14 @@ window.SITE_CONTENT = {
     form_sent_text: "Vielen Dank – wir melden uns in Kürze unter der angegebenen E-Mail-Adresse.",
     product_select_default: "Bitte wählen",
     form_opt_dora: "Dora",
-    form_opt_dora_pro: "Dora Pro",
     form_opt_dora_smart: "Dora Smart",
-    form_opt_dora_mini_pro: "Dora Mini Pro",
+    form_opt_dora_mini: "Dora Mini",
     form_opt_dora_max: "Dora Max",
     form_opt_other: "Beratung gewünscht",
     badge_classic: "Klassik",
-    badge_pro: "Pro",
     badge_max: "Max",
     badge_smart: "Smart",
-    badge_mini_pro: "Mini Pro",
+    badge_mini: "Mini",
     spec_title: "Technische Daten",
     features_title: "Funktionen & Highlights",
     compare_title: "Modellvergleich auf einen Blick",
@@ -104,7 +104,9 @@ window.SITE_CONTENT = {
     training_social_empty: "Channels will be linked soon.",
     training_social_follow: "Open profile",
     hero_stat_1: "30–90 balls/min",
-    hero_stat_2: "3-year support",
+    hero_stat_2: "3-year warranty",
+    hero_stat_2_hint: "Parts 3 yr. ·",
+    hero_stat_2_link: "Warranty terms",
     hero_stat_3: "DE service",
     video_title: "Training in practice",
     video_intro: "Player and robot in club training – this is what on-site use looks like.",
@@ -112,7 +114,7 @@ window.SITE_CONTENT = {
     trust_demo: "On-site club demo",
     trust_service: "Maintenance & spare parts",
     products_title: "Product variants",
-    products_intro: "Five models in the Dora series – from classic standard to Dora Max, smart line and Dora Mini Pro. Prices on request.",
+    products_intro: "Four models in the Dora series – Dora, Dora Max, Dora Smart and Dora Mini. Prices on request.",
     service_title: "Support & service",
     service_intro: "Ping Zhou Consulting is your local partner for Dora table tennis robots in Germany.",
     service_demo_title: "Demo & onboarding",
@@ -124,7 +126,7 @@ window.SITE_CONTENT = {
     service_training_title: "Training advice",
     service_training_text: "Recommended modes for youth, beginners and competitive players – aligned with your training plan.",
     contact_title: "Demo & inquiry",
-    contact_intro: "Interested in Dora, Dora Pro, Dora Max, Dora Smart or Dora Mini Pro? We will reply via contact@zhou-consult.com.",
+    contact_intro: "Interested in Dora, Dora Max, Dora Smart or Dora Mini? We will reply via contact@zhou-consult.com.",
     contact_company: "Ping Zhou Consulting",
     contact_address: "St.-Charles-Ring 2/1, 71638 Ludwigsburg, Germany",
     contact_phone: "+49 173 4680010",
@@ -141,16 +143,14 @@ window.SITE_CONTENT = {
     form_sent_text: "Thank you – we will reply shortly to the email address you provided.",
     product_select_default: "Please select",
     form_opt_dora: "Dora",
-    form_opt_dora_pro: "Dora Pro",
     form_opt_dora_smart: "Dora Smart",
-    form_opt_dora_mini_pro: "Dora Mini Pro",
+    form_opt_dora_mini: "Dora Mini",
     form_opt_dora_max: "Dora Max",
     form_opt_other: "Consultation requested",
     badge_classic: "Classic",
-    badge_pro: "Pro",
     badge_max: "Max",
     badge_smart: "Smart",
-    badge_mini_pro: "Mini Pro",
+    badge_mini: "Mini",
     spec_title: "Technical specifications",
     features_title: "Functions & highlights",
     compare_title: "Model comparison at a glance",
@@ -172,21 +172,21 @@ window.PRODUCTS = [
       en: "Classic ball machine for clubs and ambitious home training."
     },
     summary: {
-      de: "Robustes Standardmodell mit vollem Funktionsumfang: Punktgenaue Ballabe, OTA-Updates, Sprachhinweise und autonomer Trainingsprogrammierung.",
-      en: "Robust standard model with full feature set: precise ball placement, OTA updates, voice prompts and autonomous training programming."
+      de: "Robustes Standardmodell mit vollem Funktionsumfang: punktgenaue Ballabe, OTA-Updates und autonomer Trainingsprogrammierung. Erhältlich in Schwarz und Weiß.",
+      en: "Robust standard model with full feature set: precise ball placement, OTA updates and autonomous training programming. Available in black and white."
     },
     bullets: {
       de: [
         "150+ Bälle Kapazität",
         "30–90 Bälle/Min., 2–16 m/s",
         "Schwarz/Weiß · 6,5 kg",
-        "Ideal mit 18-mm-Tisch (Set 1 im Katalog)"
+        "Voller Modusumfang"
       ],
       en: [
         "150+ ball capacity",
         "30–90 balls/min, 2–16 m/s",
         "Black/white · 6.5 kg",
-        "Ideal with 18 mm table (catalog set 1)"
+        "Full mode range"
       ]
     },
     specs: {
@@ -233,6 +233,7 @@ window.PRODUCTS = [
         "Variable Geschwindigkeit, Spin und Kombinationsbälle",
         "Eigene Balltrajektorie & autonome Programmierung",
         "KI-gestützte Fallpunktwahl, 360°-Lichtanzeige, OTA-Firmware",
+        "Dynamische LED-Effekte",
         "Automatisches Recycling & Aufschlagsystem"
       ],
       en: [
@@ -240,77 +241,8 @@ window.PRODUCTS = [
         "Variable speed, spin and combination balls",
         "Custom ball trajectory & autonomous programming",
         "AI fall-point selection, 360° light indicator, OTA firmware",
+        "Dynamic LED effects",
         "Automatic ball recycling & serving system"
-      ]
-    }
-  },
-  {
-    id: "dora-pro",
-    badge: { de: "badge_pro", en: "badge_pro" },
-    image: "images/dora-pro.png",
-    title: { de: "Dora Pro", en: "Dora Pro" },
-    tagline: {
-      de: "Premium-Positionierung – identische Roboter-Specs, oft mit Turniertisch gebündelt.",
-      en: "Premium positioning – identical robot specs, often bundled with competition table."
-    },
-    summary: {
-      de: "Laut Herstellerkatalog 2026 identische technische Daten wie Dora. Im Set 2 mit 25-mm-Tisch für höhere Stabilität und Turniergefühl.",
-      en: "Per manufacturer catalog 2026, identical technical data to Dora. In set 2 bundled with 25 mm table for higher stability and match play feel."
-    },
-    bullets: {
-      de: [
-        "Gleiche Specs wie Dora mit zusätzlicher Sprachsteuerung",
-        "Empfohlen mit 25-mm-Tisch (Set 2)",
-        "Voller Modusumfang inkl. Kombinationsbälle",
-        "Für Vereine mit höheren Ansprüchen"
-      ],
-      en: [
-        "Same specs as Dora with additional voice control",
-        "Recommended with 25 mm table (set 2)",
-        "Full mode range incl. combination balls",
-        "For clubs with higher requirements"
-      ]
-    },
-    specs: {
-      de: [
-        ["Eigenschaft", "Wert"],
-        ["Hinweis", "Identisch mit Dora laut Katalog"],
-        ["Material", "ABS und Metall"],
-        ["Farbe", "Schwarz / Weiß"],
-        ["Ballkapazität", "150+ Stück"],
-        ["Netzteil", "24 V · < 60 W"],
-        ["Frequenz / Speed", "30–90/Min. · 2–16 m/s"],
-        ["Winkel", "±30° vertikal & horizontal"],
-        ["Abmessungen", "35 × 36 × 88 cm"],
-        ["Nettogewicht", "6,5 kg"],
-        ["Set-Empfehlung", "25-mm-Tisch + Dora Pro"]
-      ],
-      en: [
-        ["Property", "Value"],
-        ["Note", "Identical to Dora per catalog"],
-        ["Material", "ABS and metal"],
-        ["Color", "Black / white"],
-        ["Ball capacity", "150+ pcs"],
-        ["Power", "24 V · < 60 W"],
-        ["Frequency / speed", "30–90/min · 2–16 m/s"],
-        ["Angles", "±30° vertical & horizontal"],
-        ["Product size", "35 × 36 × 88 cm"],
-        ["Net weight", "6.5 kg"],
-        ["Set recommendation", "25 mm table + Dora Pro"]
-      ]
-    },
-    features: {
-      de: [
-        "Alle Dora-Funktionen inkl. Kombinations- & Programmiermodi",
-        "Präzise Fallpunktsteuerung über ganzen Tisch",
-        "Sprachhinweise & dynamische LED-Effekte",
-        "Seiten-Aufschlagtraining mit Feinjustierung"
-      ],
-      en: [
-        "All Dora functions incl. combination & programming modes",
-        "Precise placement across full table",
-        "Voice prompts & dynamic LED effects",
-        "Side-serve training with fine tuning"
       ]
     }
   },
@@ -373,13 +305,13 @@ window.PRODUCTS = [
       de: [
         "Mehrpunkt-Variable, vorgefertigte Bahnen, Aufschlag-Annahme",
         "Eigene Programmierung, Zufallsmodi, Kombinationsbälle",
-        "OTA-Firmware, LED-Anzeige, Sprachhinweise, KI-Fallpunkt",
+        "OTA-Firmware, LED-Anzeige, KI-Fallpunkt",
         "Automatische Ballrückführung"
       ],
       en: [
         "Multi-point variable, preset trajectories, serve receive",
         "Custom programming, random modes, combination balls",
-        "OTA firmware, LED display, voice prompts, AI fall-point",
+        "OTA firmware, LED display, AI fall-point",
         "Automatic ball recycling"
       ]
     }
@@ -394,73 +326,69 @@ window.PRODUCTS = [
       en: "Lighter smart line with extended ball magazine and modern colors."
     },
     summary: {
-      de: "Nur 4,5 kg, 200+ Bälle. Mehrpunkt-Variable, Rotation in beliebigem Winkel, vorgefertigte Trajektorien. Smart Pro bietet zusätzlich volle Kombinationsmodi.",
-      en: "Only 4.5 kg, 200+ balls. Multi-point variable speed, rotation at any angle, preset trajectories. Smart Pro adds full combination modes."
+      de: "Nur 4,5 kg, 200+ Bälle. Mehrpunkt-Variable, Rotation in beliebigem Winkel und vorgefertigte Trajektorien.",
+      en: "Only 4.5 kg, 200+ balls. Multi-point variable speed, rotation at any angle and preset trajectories."
     },
     bullets: {
       de: [
         "200+ Bälle · nur 4,5 kg",
         "Weiß/Blau oder Weiß/Orange",
         "Mehrpunkt & Winkel-Spin",
-        "Smart Pro: volle Kombinationsbälle"
+        "Vorgefertigte Trainingsbahnen"
       ],
       en: [
         "200+ balls · only 4.5 kg",
         "White/blue or white/orange",
         "Multi-point & angle spin",
-        "Smart Pro: full combination balls"
+        "Preset training trajectories"
       ]
     },
     specs: {
       de: [
-        ["Eigenschaft", "Dora Smart", "Dora Smart Pro"],
-        ["Material", "ABS und Metall", "ABS und Metall"],
-        ["Farbe", "Weiß/Blau, Weiß/Orange", "Weiß/Blau, Weiß/Orange"],
-        ["Ballkapazität", "200+ Stück", "200+ Stück"],
-        ["Netzteil / Leistung", "24 V · < 60 W", "24 V · < 60 W"],
-        ["Akku (optional)", "22,4 V / 4 Ah", "22,4 V / 4 Ah"],
-        ["Frequenz", "30–90/Min.", "30–90/Min."],
-        ["Geschwindigkeit", "2–16 m/s", "2–16 m/s"],
-        ["Winkel", "±30°", "±30°"],
-        ["Nettogewicht", "4,5 kg", "4,5 kg"],
-        ["Kombinationsbälle", "Eingeschränkt", "Vollständig"],
-        ["Winkelwechsel Kombi", "Nein", "Ja"]
+        ["Eigenschaft", "Wert"],
+        ["Material", "ABS und Metall"],
+        ["Farbe", "Weiß/Blau, Weiß/Orange"],
+        ["Ballkapazität", "200+ Stück"],
+        ["Netzteil / Leistung", "24 V · < 60 W"],
+        ["Akku (optional)", "22,4 V / 4 Ah"],
+        ["Frequenz", "30–90/Min."],
+        ["Geschwindigkeit", "2–16 m/s"],
+        ["Winkel", "±30°"],
+        ["Nettogewicht", "4,5 kg"]
       ],
       en: [
-        ["Property", "Dora Smart", "Dora Smart Pro"],
-        ["Material", "ABS and metal", "ABS and metal"],
-        ["Color", "White/blue, white/orange", "White/blue, white/orange"],
-        ["Ball capacity", "200+ pcs", "200+ pcs"],
-        ["Power", "24 V · < 60 W", "24 V · < 60 W"],
-        ["Battery (optional)", "22.4 V / 4 Ah", "22.4 V / 4 Ah"],
-        ["Frequency", "30–90/min", "30–90/min"],
-        ["Speed", "2–16 m/s", "2–16 m/s"],
-        ["Angles", "±30°", "±30°"],
-        ["Net weight", "4.5 kg", "4.5 kg"],
-        ["Combination balls", "Limited", "Full"],
-        ["Angle switch in combos", "No", "Yes"]
+        ["Property", "Value"],
+        ["Material", "ABS and metal"],
+        ["Color", "White/blue, white/orange"],
+        ["Ball capacity", "200+ pcs"],
+        ["Power", "24 V · < 60 W"],
+        ["Battery (optional)", "22.4 V / 4 Ah"],
+        ["Frequency", "30–90/min"],
+        ["Speed", "2–16 m/s"],
+        ["Angles", "±30°"],
+        ["Net weight", "4.5 kg"]
       ]
     },
     features: {
       de: [
-        "Smart: Festball, Mehrpunkt, Spin in beliebigem Winkel, Zufallsball",
-        "Smart Pro: zusätzlich Kombinationsbälle wie Dora Classic",
-        "OTA-Update, Sprachhinweise, KI-Feinjustierung",
+        "Festball, Mehrpunkt, Spin in beliebigem Winkel, Zufallsball",
+        "Vorgefertigte Bahnen und eigene Programmierung",
+        "OTA-Update, KI-Feinjustierung",
         "Automatisches Ball-Recycling"
       ],
       en: [
-        "Smart: fixed ball, multi-point, spin at any angle, random ball",
-        "Smart Pro: additionally combination balls like Dora Classic",
-        "OTA update, voice prompts, AI fine tuning",
+        "Fixed ball, multi-point, spin at any angle, random ball",
+        "Preset trajectories and custom programming",
+        "OTA update, AI fine tuning",
         "Automatic ball recycling"
       ]
     }
   },
   {
-    id: "dora-mini-pro",
-    badge: { de: "badge_mini_pro", en: "badge_mini_pro" },
-    image: "images/dora-mini-pro.png",
-    title: { de: "Dora Mini Pro", en: "Dora Mini Pro" },
+    id: "dora-mini",
+    badge: { de: "badge_mini", en: "badge_mini" },
+    image: "images/dora-mini.png",
+    title: { de: "Dora Mini", en: "Dora Mini" },
     tagline: {
       de: "Kompakte Smart-Linie mit vollem Funktionsumfang.",
       en: "Compact smart line with full feature set."
@@ -517,13 +445,13 @@ window.PRODUCTS = [
       de: [
         "Mehrpunkt-Variable, vorgefertigte Bahnen, Aufschlag-Annahme",
         "Eigene Programmierung, Zufallsmodi, volle Kombinationsbälle",
-        "OTA-Firmware, LED-Anzeige, Sprachhinweise, KI-Feinabstimmung",
+        "OTA-Firmware, LED-Anzeige, KI-Feinabstimmung",
         "Platzsparend für Vereinsnebenräume"
       ],
       en: [
         "Multi-point variable, preset trajectories, serve receive",
         "Custom programming, random modes, full combination balls",
-        "OTA firmware, LED display, voice prompts, AI fine tuning",
+        "OTA firmware, LED display, AI fine tuning",
         "Space-saving for club side rooms"
       ]
     }
@@ -532,13 +460,12 @@ window.PRODUCTS = [
 
 window.IMAGES = {
   hero: "images/hero-training.jpg",
-  heroVideo: "videos/training-demo.mp4",
+  heroVideo: "videos/training-demo.mp4?v=2",
   products: {
     dora: "images/dora.png",
-    "dora-pro": "images/dora-pro.png",
     "dora-max": "images/dora-max.png",
     "dora-smart": "images/dora-smart.png",
-    "dora-mini-pro": "images/dora-mini-pro.png"
+    "dora-mini": "images/dora-mini.png"
   }
 };
 
@@ -546,27 +473,25 @@ window.COMPARISON = {
   de: [
     ["Modell", "Gewicht", "Bälle", "Farbe", "Besonderheit"],
     ["Dora", "6,5 kg", "150+", "Schwarz/Weiß", "Klassik, volle Modi"],
-    ["Dora Pro", "6,5 kg", "150+", "Schwarz/Weiß", "Wie Dora · Set mit 25-mm-Tisch"],
     ["Dora Max", "7,8 kg", "120+", "Weiß", "Robust, Classic-Linie"],
     ["Dora Smart", "4,5 kg", "200+", "Weiß/Blau/Orange", "Smart-Linie, leicht"],
-    ["Dora Mini Pro", "4,5 kg", "150+", "Weiß/Blau/Orange", "Kompakt, volle Modi"]
+    ["Dora Mini", "4,5 kg", "150+", "Weiß/Blau/Orange", "Kompakt, volle Modi"]
   ],
   en: [
     ["Model", "Weight", "Balls", "Color", "Highlight"],
     ["Dora", "6.5 kg", "150+", "Black/white", "Classic, full modes"],
-    ["Dora Pro", "6.5 kg", "150+", "Black/white", "Same as Dora · 25 mm table set"],
     ["Dora Max", "7.8 kg", "120+", "White", "Robust, classic line"],
     ["Dora Smart", "4.5 kg", "200+", "White/blue/orange", "Smart line, lightweight"],
-    ["Dora Mini Pro", "4.5 kg", "150+", "White/blue/orange", "Compact, full modes"]
+    ["Dora Mini", "4.5 kg", "150+", "White/blue/orange", "Compact, full modes"]
   ]
 };
 
 window.MEDIA = {
-  showSocial: false,
+  showSocial: true,
   videos: [
     {
       id: "club-training",
-      file: "videos/training-demo.mp4",
+      file: "videos/training-demo.mp4?v=2",
       poster: "images/hero-training.jpg",
       title: {
         de: "Vereinstraining mit Roboter",
@@ -595,8 +520,8 @@ window.MEDIA = {
     {
       id: "youtube",
       label: { de: "YouTube", en: "YouTube" },
-      handle: { de: "Kanal folgen", en: "Follow channel" },
-      url: ""
+      handle: { de: "@Pusun-sport", en: "@Pusun-sport" },
+      url: "https://www.youtube.com/@Pusun-sport"
     },
     {
       id: "instagram",

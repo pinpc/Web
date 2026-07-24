@@ -16,6 +16,8 @@ AddCharset utf-8 .js
 # Optional: WordPress-Restpfade blockieren (nach Archivierung)
 <IfModule mod_rewrite.c>
 RewriteEngine On
+# Passwortgeschuetzter Ordner /private/ inkl. aller Unterordner
+RewriteRule ^private - [L]
 RewriteRule ^wp-admin - [F,L]
 RewriteRule ^wp-login\.php - [F,L]
 </IfModule>

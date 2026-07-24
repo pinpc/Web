@@ -1,0 +1,7 @@
+DirectoryIndex index.php index.html
+
+AddType application/pdf .pdf
+AddType image/png .png
+AddType image/jpeg .jpg .jpeg
+AddType application/vnd.openxmlformats-officedocument.spreadsheetml.sheet .xlsx
+AddType application/vnd.ms-excel .xls

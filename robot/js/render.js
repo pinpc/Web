@@ -4,15 +4,14 @@
   }
 
   function badgeClass(id) {
-    if (id === "dora-pro") return "badge-pro";
     if (id === "dora-max") return "badge-max";
     if (id === "dora-smart") return "badge-smart";
-    if (id === "dora-mini-pro") return "badge-compact";
+    if (id === "dora-mini") return "badge-compact";
     return "badge-classic";
   }
 
   function isFeaturedProduct(id) {
-    return id === "dora" || id === "dora-pro" || id === "dora-max" || id === "dora-smart" || id === "dora-mini-pro";
+    return id === "dora" || id === "dora-max" || id === "dora-smart" || id === "dora-mini";
   }
 
   function productCard(p, lang, compact) {
@@ -115,28 +114,16 @@
     } else if (socialRoot && MEDIA.social) {
       const active = MEDIA.social.filter((s) => s.url);
       if (!active.length) {
-        socialRoot.innerHTML = `<p class="media-empty" data-i18n="training_social_empty">${t("training_social_empty", lang)}</p>
-          <div class="social-grid social-grid--placeholder">${MEDIA.social.map((s) => `
-            <div class="card social-card social-card--pending">
-              <span class="social-label">${s.label[lang] || s.label.en}</span>
-              <span class="social-handle">${s.handle[lang] || s.handle.en}</span>
-            </div>`).join("")}</div>`;
+        if (socialSection) socialSection.hidden = true;
       } else {
-        socialRoot.innerHTML = `<div class="social-grid">${MEDIA.social.map((s) => {
-          if (!s.url) {
-            return `<div class="card social-card social-card--pending">
-              <span class="social-label">${s.label[lang] || s.label.en}</span>
-              <span class="social-handle">${s.handle[lang] || s.handle.en}</span>
-            </div>`;
-          }
-          return `<a class="card social-card" href="${s.url}" target="_blank" rel="noopener noreferrer">
+        socialRoot.innerHTML = `<div class="social-grid">${active.map((s) => `
+          <a class="card social-card" href="${s.url}" target="_blank" rel="noopener noreferrer">
             <span class="social-label">${s.label[lang] || s.label.en}</span>
             <span class="social-handle">${s.handle[lang] || s.handle.en}</span>
             <span class="social-cta">${t("training_social_follow", lang)} →</span>
-          </a>`;
-        }).join("")}</div>`;
+          </a>`).join("")}</div>`;
+        if (socialSection) socialSection.hidden = false;
       }
-      if (socialSection) socialSection.hidden = false;
     }
   }
 

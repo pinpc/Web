@@ -10,4 +10,7 @@ _live_technology.html
 punu/
 graphiteproduct/_pdf_extract.txt
 graphiteproduct/images/cured-felt-surfaces.png  (ungenutzt, ersetzt durch surface-*.png)
-server/  (nur Anleitung lokal)
+daten/  (private Geschaeftsdateien – nur lokal)
+server/private/  (generiert, per FTP hochladen – nicht via Git)
+server/  (Anleitungen lokal; PRIVATE-BEREICH.txt lesen)
+scripts/  (nicht hochladen)
