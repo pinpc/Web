@@ -35,6 +35,8 @@ window.SITE_CONTENT = {
     products_intro: "Professionell kategorisierte Thermofeld-Materialien mit Kennwerten aus Produktpräsentation und Datenblattbasis.",
     applications_title: "Anwendungen",
     applications_intro: "Orientierung nach Prozesstemperatur und Industrie – vergleichbar mit Lösungsseiten führender Hochtemperatur-Anbieter.",
+    applications_areas_title: "Anwendungsbereiche",
+    applications_gallery_title: "Lieferung und Anwendungen",
     technology_title: "Materialtechnologie",
     technology_intro: "Maßgeschneiderte Thermofeld-Materialien durch kontinuierliches CVD und Oxidationsätzen.",
     tech_p3_1: "Kontinuierliches CVD + Oxidationsätzen: gezielte Faseroberflächenmodifikation bis zur Endverdichtung",
@@ -137,6 +139,8 @@ window.SITE_CONTENT = {
     products_intro: "Professionally categorized thermal field materials with key values from product presentation and datasheet basis.",
     applications_title: "Applications",
     applications_intro: "Structured by process temperature and industry – comparable to leading high-temperature solution providers.",
+    applications_areas_title: "Application areas",
+    applications_gallery_title: "Delivery and applications",
     technology_title: "Material technology",
     technology_intro: "Tailored thermal-field materials via continuous CVD and oxidation etching.",
     tech_p3_1: "Continuous CVD + oxidation etching: controlled fiber surface modification to final sealing",
@@ -372,13 +376,86 @@ window.IMAGES = {
     curedSurfaceLabels: ["surface_cloth", "surface_paper", "surface_bare", "surface_cfc"],
   },
   gallery: [
-    "images/product_02.jpeg",
-    "images/gallery-bolts.png",
-    "images/product_22.jpeg",
-    "images/product_24.jpeg",
-    "images/gallery-bowl.png",
-    "images/gallery-blocks.png",
-    "images/gallery-cylinder.png"
+    {
+      src: "images/application-cylinder-delivery.png",
+      title: { de: "C/C-Rohling Auslieferung", en: "C/C blank delivery" },
+      caption: { de: "Großformat-C/C-Komponente – versandfertig auf Palette.", en: "Large-format C/C component – ready for shipment on pallet." }
+    },
+    {
+      src: "images/application-cc-discs-delivery.png",
+      title: { de: "C/C Ofenboden & Deckel – Lieferung", en: "C/C furnace bottom & lid – delivery" },
+      caption: { de: "Runde C/C-Ofenkomponenten auf Schaumstoff – transportfertig verpackt.", en: "Round C/C furnace components on foam padding – packed for transport." }
+    },
+    {
+      src: "images/application-cc-disc-top.png",
+      title: { de: "C/C Ofenkomponente – Transport", en: "C/C furnace component – transport" },
+      caption: { de: "C/C-Scheibe mit Graphitring – bereit für den Versand.", en: "C/C disc with graphite ring – ready for dispatch." }
+    },
+    {
+      src: "images/application-cc-ring-warehouse.png",
+      title: { de: "C/C Ring – Lager & Versand", en: "C/C ring – storage & shipping" },
+      caption: { de: "C/C-Ring auf Palette in der Halle – sicher verpackt für die Auslieferung.", en: "C/C ring on pallet in the warehouse – safely packed for delivery." }
+    },
+    {
+      src: "images/application-soft-felt-delivery-outdoor.png",
+      title: { de: "Weichfilz in Lieferung", en: "Soft felt in delivery" },
+      caption: { de: "Graphit-Weichfilz-Rolle im Außenbereich – versandbereit.", en: "Graphite soft felt roll outdoors – ready for shipment." }
+    },
+    {
+      src: "images/application-soft-felt-delivery-roll.png",
+      title: { de: "Weichfilz-Rolle – Auslieferung", en: "Soft felt roll – delivery" },
+      caption: { de: "Großformat-Weichfilzrolle für Thermofeld-Anwendungen.", en: "Large soft felt roll for thermal field applications." }
+    },
+    {
+      src: "images/application-graphite-blocks-delivery.png",
+      title: { de: "Graphit-Blöcke in Lieferung", en: "Graphite blocks in delivery" },
+      caption: { de: "Gestapelte Graphit-Platten auf Palette – gekennzeichnet und versandfertig.", en: "Stacked graphite plates on pallet – labelled and ready to ship." }
+    },
+    {
+      src: "images/application-graphite-slabs-delivery.png",
+      title: { de: "Graphit-Platten – Transport", en: "Graphite slabs – transport" },
+      caption: { de: "Graphit-Blockmaterial auf Europalette für den Werktransport.", en: "Graphite block material on pallet for factory dispatch." }
+    },
+    {
+      src: "images/product_02.jpeg",
+      title: { de: "Thermofeld-Isolierung", en: "Thermal field insulation" },
+      caption: { de: "Isolierende Komponenten für Hochtemperaturofen.", en: "Insulating components for high-temperature furnaces." }
+    },
+    {
+      src: "images/gallery-bolts.png",
+      title: { de: "Graphit-Bolzen", en: "Graphite bolts" },
+      caption: { de: "Präzisionsgefertigte Graphitbefestigungselemente.", en: "Precision-machined graphite fastening elements." }
+    },
+    {
+      src: "images/product_22.jpeg",
+      title: { de: "Ofeneinbau", en: "Furnace installation" },
+      caption: { de: "Thermofeld-Material im industriellen Ofeneinsatz.", en: "Thermal field material in industrial furnace use." }
+    },
+    {
+      src: "images/product_24.jpeg",
+      title: { de: "Prozesskomponente", en: "Process component" },
+      caption: { de: "Maßgefertigte Graphitkomponente für den Hochtemperaturprozess.", en: "Custom graphite component for high-temperature processes." }
+    },
+    {
+      src: "images/gallery-bowl.png",
+      title: { de: "Graphit-Schüssel", en: "Graphite crucible bowl" },
+      caption: { de: "Bearbeitete Graphit-Schüssel für Reaktions- und Schmelzprozesse.", en: "Machined graphite bowl for reaction and melting processes." }
+    },
+    {
+      src: "images/gallery-blocks.png",
+      title: { de: "Graphit-Blöcke", en: "Graphite blocks" },
+      caption: { de: "Blockmaterial und Halbzeuge für Thermofeld-Anwendungen.", en: "Block material and semi-finished parts for thermal field applications." }
+    },
+    {
+      src: "images/gallery-cylinder.png",
+      title: { de: "Graphit-Zylinder", en: "Graphite cylinder" },
+      caption: { de: "Präzisionsbearbeiteter Graphit-Zylinder für Hochtemperaturanlagen.", en: "Precision-machined graphite cylinder for high-temperature systems." }
+    },
+    {
+      src: "images/application-furnace-insulation-special.png",
+      title: { de: "Ofenisolation in Spezialform", en: "Furnace insulation in special form" },
+      caption: { de: "Großformat-Isolierung für Hochtemperaturofen – maßgefertigt in Sondergeometrie.", en: "Large-format insulation for high-temperature furnaces – custom special geometry." }
+    }
   ]
 };
 

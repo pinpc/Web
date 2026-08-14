@@ -5,6 +5,15 @@
     "cc-composite": window.IMAGES?.ccPlate,
   };
 
+  function gallerySrc(item) {
+    return typeof item === "string" ? item : item.src;
+  }
+
+  function galleryLabel(item, lang, field) {
+    if (typeof item === "string") return window.i18n?.t("gallery_alt", lang) || "Application";
+    return item[field]?.[lang] || item[field]?.en || "";
+  }
+
   function renderProducts(lang) {
     const root = document.getElementById("products-root");
     if (!root || !window.PRODUCTS) return;
@@ -52,10 +61,17 @@
   function renderGallery(lang) {
     const root = document.getElementById("gallery-root");
     if (!root || !window.IMAGES?.gallery) return;
-    const alt = window.i18n?.t("gallery_alt", lang) || "Application";
-    root.innerHTML = IMAGES.gallery.map((src) =>
-      `<img src="${src}" alt="${alt}" loading="lazy">`
-    ).join("");
+    const fallbackAlt = window.i18n?.t("gallery_alt", lang) || "Application";
+    root.innerHTML = IMAGES.gallery.map((item) => {
+      const src = gallerySrc(item);
+      const title = galleryLabel(item, lang, "title") || fallbackAlt;
+      const caption = galleryLabel(item, lang, "caption");
+      return `
+        <figure class="application-photo">
+          <img src="${src}" alt="${title}" loading="lazy">
+          <figcaption><strong>${title}</strong>${caption ? `<span>${caption}</span>` : ""}</figcaption>
+        </figure>`;
+    }).join("");
   }
 
   function renderApplications(lang) {
@@ -64,7 +80,8 @@
     const gallery = window.IMAGES?.gallery || [];
     root.innerHTML = APPLICATIONS.map((a, idx) => {
       const img = gallery[idx % gallery.length];
-      const bg = img ? `style="background-image:url('${img}')"` : "";
+      const src = img ? gallerySrc(img) : "";
+      const bg = src ? `style="background-image:url('${src}')"` : "";
       return `
       <div class="app-card" ${bg}>
         <span class="temp">${a.temp}</span>
