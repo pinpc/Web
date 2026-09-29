@@ -4,6 +4,7 @@
     { href: "products.html", key: "nav_products" },
     { href: "training.html", key: "nav_training" },
     { href: "service.html", key: "nav_service" },
+    { href: "downloads.html", key: "nav_downloads" },
     { href: "contact.html", key: "nav_contact" },
   ];
 

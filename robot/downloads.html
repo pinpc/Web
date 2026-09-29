@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Downloads | Tischtennis-Roboter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.titleKey = "downloads_meta_title";</script>
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="section" style="padding-top:2rem">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="downloads_title">Broschüre &amp; Dokumente</h2>
+          <p class="lead" data-i18n="downloads_intro">Produktunterlagen der Dora-Serie zum Herunterladen.</p>
+        </div>
+        <div class="download-list">
+          <article class="card download-card">
+            <div>
+              <p class="download-kicker" data-i18n="downloads_brochure_kicker">PDF · Deutsch</p>
+              <h3 data-i18n="downloads_brochure_title">Produktbroschüre Dora-Serie</h3>
+              <p data-i18n="downloads_brochure_text">Modelle, technische Daten, Vergleich und Service. Neun Seiten für Verein, Schule und Zuhause.</p>
+            </div>
+            <a id="brochure-download" class="btn btn-primary" href="downloads/Tischtennis-Roboter_Dora-Serie_Broschuere.pdf" data-i18n="downloads_brochure_cta">PDF herunterladen</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/content.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/layout.js"></script>
+  <script>
+    (function () {
+      var files = {
+        de: "downloads/Tischtennis-Roboter_Dora-Serie_Broschuere.pdf",
+        en: "downloads/Table-Tennis-Robots_Dora-Series_Brochure.pdf"
+      };
+      function setBrochure(lang) {
+        var link = document.getElementById("brochure-download");
+        if (!link) return;
+        var file = files[lang] || files.de;
+        link.href = file;
+        link.setAttribute("download", file.split("/").pop());
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        setBrochure(window.i18n ? i18n.getLang() : "de");
+      });
+      window.addEventListener("langchange", function (event) {
+        setBrochure(event.detail.lang);
+      });
+    })();
+  </script>
+</body>
+</html>
